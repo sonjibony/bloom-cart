@@ -12,7 +12,7 @@
 
 
 .btn-primary{
-    background-color:#82B235;
+    background-color:#82b235b4;
     padding: 20px 43px;
     border: none;
     border-radius: 6px;
@@ -41,8 +41,7 @@
   
 
 .banner-img {
-    width: 650px;
-  height: 850px;
+    margin-bottom: -50px;
   object-fit: cover;
 
   }
@@ -59,4 +58,53 @@
     font-weight: 500;
     color:rgba(39, 39, 39, 0.6) ;
     margin-bottom: 20px;
+}
+/* featured flowers style */
+.ft-flowers{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; 
+}
+.ft-info{
+text-align: center;
+}
+.ft-title{
+font-size: 2.5rem;
+font-weight: 700;
+color: #272727;
+margin-bottom: 20px;
+}
+.ft-des{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.flower-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cards in one row */
+    gap: 10px;
+    padding: 70px;
+}
+
+.flower-card {
+    width: 464px;
+    height: 538px;
+    border-radius: 232px 232px 0 0; 
+    display: flex;
+    align-items: center;
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  */
+    overflow: hidden;
+}
+ /* Different light background colors */
+.flower-card:nth-child(1) { background-color: rgba(167, 33, 98, 0.034); }
+.flower-card:nth-child(2) { background-color: rgba(25, 207, 64, 0.205); }
+.flower-card:nth-child(3) { background-color: rgba(12, 51, 78, 0.151); }
+.flower-card img {
+    width: 100%;
+    height: 80%;
+    object-fit: contain; 
+    margin-bottom: -100px;
 }
