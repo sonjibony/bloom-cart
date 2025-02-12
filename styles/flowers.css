@@ -108,3 +108,39 @@ margin-bottom: 20px;
     object-fit: contain; 
     margin-bottom: -100px;
 }
+
+/* responsive */
+/* small devices */
+@media  screen and (max-width:576px) {
+    .banner{
+        flex-direction: column;
+        height: 100%;
+    }
+    .banner-info{
+        text-align: center;
+    }
+    .banner-img {
+        visibility: hidden;
+      }
+}
+
+
+/* medium devices */
+@media screen and (min-width:576px) and (max-width:992px) {
+    .btn-primary{
+        margin-bottom: 30px;
+    }
+    .banner{
+        flex-direction: column;
+        height: 100%;
+
+    }
+    .banner-info{
+        text-align: center;
+    }
+    .banner-img {
+        height: 0;
+        overflow: hidden;
+    }
+    
+    }
