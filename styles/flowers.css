@@ -189,7 +189,41 @@ color: #272727;
         margin-bottom: 30px;
         }
 }
+/* hot deals style */
+.hot-deals{
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: center;
+align-items: center;
+gap: 50px;
+height: 620px;
+width: 100%;
+margin: 50px auto;
+padding-left: 50px;
+padding-right: 50px;
+}
+.deal-info{
+    text-align: center;
+}
 
+.deal-title{
+    font-size: 3rem;
+font-weight: 800;
+color: #272727;
+margin-bottom: 40px;
+}
+.deal-off{
+    color:  #82b235b4 ;
+}
+.deal-des{
+font-size: 1/2rem;
+font-weight: 500;
+color:#333 ;
+margin-bottom: 30px;
+}
+.deal-title{
+
+}
 
 /* medium devices */
 @media screen and (min-width:576px) and (max-width:1050px) {
