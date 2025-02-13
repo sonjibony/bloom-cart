@@ -173,6 +173,21 @@ color: #272727;
         align-items: center; /* Centers vertically */
         height: 100vh; 
     }
+    .services{
+        background-color: rgba(9, 78, 226, 0.158);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 600px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 700px;
+        padding: 60px 10px ;
+    }
+    .serv-title{
+        font-size: 1.4rem;
+        color: #272727;
+        margin-bottom: 30px;
+        }
 }
 
 
@@ -207,5 +222,20 @@ color: #272727;
         align-items: center; /* Centers vertically */
         height: 100vh; 
     }
+    .services{
+        background-color: rgba(9, 78, 226, 0.158);
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        height: 600px;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 700px;
+        padding: 60px 10px ;
+    }
+    .serv-title{
+        font-size: 1.4rem;
+        color: #272727;
+        margin-bottom: 30px;
+        }
     
     }
