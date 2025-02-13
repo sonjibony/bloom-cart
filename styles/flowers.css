@@ -123,6 +123,29 @@ margin-bottom: 20px;
 width: 181px;
 border: 2px solid #82b235b4;
     margin: 5px auto; }
+
+/* services style */
+.services{
+    background-color: rgba(9, 78, 226, 0.158);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 320px;
+    width: 90%;
+    margin: 0 auto;
+}
+.serv-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.serv-title{
+font-size: 1.4rem;
+color: #272727;
+}
+
+
 /* responsive */
 /* small devices */
 @media  screen and (max-width:576px) {
